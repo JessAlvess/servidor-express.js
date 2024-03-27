@@ -9,7 +9,7 @@ const usuarios = [
     {id: 123, nome: 'james', idade: 25}
 ]
 
-app.get('/', (req, res) => {
+app.get('/usuarios', (req, res) => {
     res.send(usuarios)
 })
 
